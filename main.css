@@ -53,6 +53,10 @@ h3 {
   margin: 0;
 }
 
+.container-body {
+  margin-top: 60px; 
+  padding: 50px 10%;
+}
 
 .home-banner {
   margin-top: -130px;
