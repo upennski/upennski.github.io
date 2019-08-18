@@ -29,8 +29,10 @@ h3 {
   padding-left: 45px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: rgba(250, 250, 250, 0.85);
+  min-height: 60px;
   /* background-color: #ccdaf0!important; */
 }
+
 .nav-item {
   text-align: center;
   margin: 0 10px;
@@ -55,6 +57,7 @@ h3 {
 .home-banner {
   margin-top: -130px;
   background-image: url("./img/mountains-banner.png");
+  background-color: #d08d7f;
   height: 850px; 
   /* background-attachment: fixed; */
   background-position: center top;
