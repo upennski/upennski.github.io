@@ -1,0 +1,123 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+a:hover {
+  text-decoration: none;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  
+}
+h2 {
+  color: #1c1c1c;
+  font-size: 24px;
+}
+h3 {
+  color: #1c1c1c;
+  font-size: 16px;
+}
+.navbar {
+  padding-left: 45px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgba(250, 250, 250, 0.85);
+  /* background-color: #ccdaf0!important; */
+}
+.nav-item {
+  text-align: center;
+  margin: 0 10px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #1c1c1c;
+  padding: 5px;
+  cursor: pointer;
+  /* margin: 28px 18px; */
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: #357;
+}
+
+.row {
+  margin: 0;
+}
+
+
+.home-banner {
+  margin-top: -130px;
+  background-image: url("./img/mountains-banner.png");
+  height: 850px; 
+  /* background-attachment: fixed; */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-banner-content {
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 130px;
+  padding: 220px 15%;
+}
+
+.home-content {
+  background-color: #072c84;
+  color: white;
+}
+
+.description {
+  color: #1c1c1c;
+  text-align: justify;
+}
+
+.officer {
+  padding: 20px 0;
+  text-align: right;
+}
+.officer-img {
+  border: 1px solid #aaa;
+  border-radius: 20px;
+}
+.officer-description {
+  border-left: 1px solid #aaa; 
+  padding-left: 10px; 
+  margin-top: 10px; 
+  font-size: 12px;
+  display: inline-block;
+}
+
+.about-header {
+  margin-top: 50px;
+}
+.about-paragraph {
+  margin-top: 20px;
+}
+.faq-header {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.contact-item {
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+}
+
+.footer-home {
+  margin-top: -56px;
+  padding: 0 30px;
+  color: white;
+}
+.footer {
+  padding: 20px 30px;
+  color: #444;
+}
