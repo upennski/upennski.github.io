@@ -93,6 +93,7 @@ h3 {
 .officer-img {
   border: 1px solid #aaa;
   border-radius: 20px;
+  margin-bottom: 10px;
 }
 .officer-description {
   border-left: 1px solid #aaa; 
