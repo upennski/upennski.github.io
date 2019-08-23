@@ -15,10 +15,10 @@ ul {
   list-style-type: none;
 }
 h1 {
-  
+  color: red;
 }
 h2 {
-  color: #1c1c1c;
+  color: blue;
   font-size: 24px;
 }
 h3 {
@@ -58,27 +58,18 @@ h3 {
   padding: 50px 10%;
 }
 
-.home-banner {
-  margin-top: -130px;
-  background-image: url("./img/mountains-banner.png");
-  background-color: #d08d7f;
-  height: 850px; 
-  /* background-attachment: fixed; */
+body {
+  background-image: url("./img/snowy-background.png");
+  background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.home-banner-content {
-  color: white;
-  width: 100%;
-  text-align: center;
-  margin-top: 130px;
-  padding: 220px 15%;
-}
 
-.home-content {
-  background-color: #072c84;
-  color: white;
+  min-height: 100vh;
+  
+}
+.home {
+  padding: 150px 10%;
 }
 
 .description {
@@ -95,6 +86,9 @@ h3 {
   border-radius: 20px;
   margin-bottom: 10px;
 }
+.officer-name {
+  color: blue;
+}
 .officer-description {
   border-left: 1px solid #aaa; 
   padding-left: 10px; 
@@ -110,8 +104,14 @@ h3 {
   margin-top: 20px;
 }
 .faq-header {
-  margin-top: 30px;
   font-size: 20px;
+  color: #1000a0;
+}
+
+.media-carousel {
+  width: 90%;
+  height: 500px;
+  overflow: hidden;
 }
 
 .contact-item {
